@@ -58,7 +58,7 @@ module alu_top #(
         end
     end
 
-    // ALU Core Core Core
+    // ALU Core 
     alu_engine #(.WIDTH(WIDTH)) u_alu_core (
         .a             (r_a),
         .b             (r_b),
